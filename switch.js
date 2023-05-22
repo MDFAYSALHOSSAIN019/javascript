@@ -1,4 +1,4 @@
-let any=5;
+let any=2;
 
 switch(any){
  
@@ -25,7 +25,7 @@ switch(any){
                         case 6:
                             console.log("nice");
                             break;
- default
-
+ default:("nothing is found");
+         
 
 }
