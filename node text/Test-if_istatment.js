@@ -142,13 +142,43 @@
 
 // class number: 0-32 fail, 33-40 great D, 41-50 great C, 51-60 great B, 61-70 great A-, 71-80 great A, 81-99 great A+: 
 
-let number=50;
+let number=80;
 
 
-if(number>){
-
+if(number<0){
+console.log("invalid");
+}
+else if(number<=32){
+console.log("F");
 }
 
-else{
+else if(number<=39){
+    console.log("F");
+    }
 
+    else if(number<=32){
+        console.log("D=1.00");
+        }
+
+        else if(number<=49){
+            console.log("C=2.00");
+            }
+
+            else if(number<=59){
+                console.log("B=3.00");
+                }
+
+                else if(number<=69){
+                    console.log("A-=3.50");
+                    }
+
+                    else if(number<=79){
+                        console.log("A=4.00");
+                        }
+
+                        else if(number<=100){
+                            console.log("A+=5.00");
+                            }
+else{
+    console.log("Data are not found")
 }
