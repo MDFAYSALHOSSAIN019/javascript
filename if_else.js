@@ -1,21 +1,21 @@
 
-let userName="html";
-let password="hi13";
+// let userName="html";
+// let password="hi13";
 
-if(userName=="html"){
-    // console.log("well-come "+ password);
- if(password=="hi123"){
-    console.log("well-come " + userName);
-}
-else{
-    console.log("password is incorrect");
-}
-}
+// if(userName=="html"){
+//     // console.log("well-come "+ password);
+//  if(password=="hi123"){
+//     console.log("well-come " + userName);
+// }
+// else{
+//     console.log("password is incorrect");
+// }
+// }
 
-else{
-    console.log("user not founded");
+// else{
+//     console.log("user not founded");
 
-}
+// }
 
 
 // result sheet---------------
@@ -45,4 +45,22 @@ else{
 
 // else{
 //     // console.log("F");
+// }
+
+
+
+// let username="faysal";
+// let password="hi14";
+
+// if( username=="faysal"){
+
+//     if( password=="hi147"){
+//         console.log("wellcome");
+//     }
+//     else{
+//         console.log("password is not correct");
+//     }
+// }
+// else{
+//     console.log("user are not found");
 // }
